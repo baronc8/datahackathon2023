@@ -1,0 +1,7 @@
+library(tidyverse)
+library(readr)
+getwd()
+setwd("/Users/baroncabudol/Desktop/data hackathon")
+sales <-read_delim("data/sales_data_2017_2018.csv")
+dim(sales)
+colnames(sales)
